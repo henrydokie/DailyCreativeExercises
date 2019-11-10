@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+
+// function prototypes
+void call(int a, int b);
+void callWhile(int c, int d);
+
+// function call
+int main()
+{
+  call(1, 2);
+  callWhile(3, 20);
+  return 0;
+}
+
+
+//function defintiions
+void call(int a, int b)
+{
+  cout << a << "\n" << b << "\n";
+}
+void callWhile(int c, int d)
+{
+  for (int i = c; i <= d; i++)
+  {
+    cout << i << endl;
+  }
+}
