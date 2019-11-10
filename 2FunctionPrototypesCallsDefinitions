@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+//function prototypes
+void printOneToTen();
+void printElevenToTwenty();
+
+
+//contains funcion calls
+int main()
+{
+  printOneToTen();
+  printElevenToTwenty();
+  return 0;
+}
+
+//function definitions
+void printOneToTen()
+{
+  for (int i = 0; i <= 10; i++)
+  {
+    cout << i << endl;
+  }
+}
+void printElevenToTwenty()
+{
+  for (int i = 11; i <= 20; i++)
+  {
+    cout << i << endl;
+  }
+}
